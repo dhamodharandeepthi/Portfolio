@@ -1,0 +1,33 @@
+.toggler {
+  background-color: #4b7bec !important;
+}
+
+.navbtn {
+  transition: all 0.2s linear;
+  animation: rotate 4s infinite;
+}
+
+span::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0%;
+  background-color: yellowgreen;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s linear;
+}
+span:hover {
+  transition: 0.3s linear;
+}
+span:hover::after {
+  width: 100%;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
