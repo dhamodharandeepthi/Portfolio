@@ -135,7 +135,7 @@ export default function Projects() {
                                     <CardDetails>
                                         <DetailHeader>Weather App</DetailHeader>
                                         <DetailBody> Weather app with real-time updates and intuitive design.</DetailBody>
-                                        <DetailSub> | React |</DetailSub>
+                                        <DetailSub>HTML | CSS | ReactJS </DetailSub>
                                         <DetailFooter>
                                             <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://weather-proje-app.netlify.app/">Live Showcase</a></button></div>
                                             <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/practice1/tree/main/REACT_JS/WeatherApp">Access Code</a></button></div>
@@ -153,7 +153,7 @@ export default function Projects() {
                                     <CardDetails>
                                         <DetailHeader>Calender App</DetailHeader>
                                         <DetailBody> Calender app with real-time updates and intuitive design.</DetailBody>
-                                        <DetailSub> | React |</DetailSub>
+                                        <DetailSub> HTML | CSS | ReactJS </DetailSub>
                                         <DetailFooter>
                                             <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://mycalenderappusingreact.netlify.app/">Live Showcase</a></button></div>
                                             <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/practice1/tree/main/REACT_JS/Calender_App">Access Code</a></button></div>
@@ -171,7 +171,7 @@ export default function Projects() {
                                     <CardDetails>
                                         <DetailHeader>Currency Converter </DetailHeader>
                                         <DetailBody>Reliable currency converter app!. Instant conversions, anytime, anywhere!</DetailBody>
-                                        <DetailSub> | React |</DetailSub>
+                                        <DetailSub>HTML | CSS | ReactJS </DetailSub>
                                         <DetailFooter>
                                             <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://pro-currency-converter-app.netlify.app/">Live Showcase</a></button></div>
                                             <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/practice1/tree/main/REACT_JS/Currency_converter">Access Code</a></button></div>
@@ -188,7 +188,7 @@ export default function Projects() {
                                     <CardDetails>
                                         <DetailHeader>Gmail Clone </DetailHeader>
                                         <DetailBody>The ultimate Gmail clone. Stay organized, connected, and productive with intuitive features tailored to your needs</DetailBody>
-                                        <DetailSub>| React | Node | Express | MongoDB |</DetailSub>
+                                        <DetailSub>ReactJs | NodeJs | ExpressJs | MongoDB</DetailSub>
                                         <DetailFooter>
                                             <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://gmail-clone-proapp.netlify.app/emails/inbox">Live Showcase</a></button></div>
                                             <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="	https://github.com/dhamodharandeepthi/capstone-fe-gmail_clone">Access Code</a></button></div>
