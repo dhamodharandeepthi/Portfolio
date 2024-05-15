@@ -6,6 +6,7 @@ import { medium, small, large } from '../mobileResponsive';
 import WeatherApp from "../assets/weather.png"
 import CalenderApp from "../assets/calender.png"
 import CurrencyApp from "../assets/currency.png"
+import GmailCloneApp from "../assets/gmailclone.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -173,6 +174,22 @@ export default function Projects() {
                                         <DetailFooter>
                                             <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://pro-currency-converter-app.netlify.app/">Live Showcase</a></button></div>
                                             <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/practice1/tree/main/REACT_JS/Currency_converter">Access Code</a></button></div>
+                                        </DetailFooter>
+                                    </CardDetails>
+                                </Card>
+
+                            </InnerCard>
+                        </OuterCard>
+                        <OuterCard>
+                            <InnerCard>
+                                <Card data-aos="zoom-out">
+                                    <CardImg src={GmailCloneApp} />
+                                    <CardDetails>
+                                        <DetailHeader>Gmail Clone </DetailHeader>
+                                        <DetailBody>The ultimate Gmail clone. Stay organized, connected, and productive with intuitive features tailored to your needs</DetailBody>
+                                        <DetailFooter>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://gmail-clone-proapp.netlify.app/emails/inbox">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="	https://github.com/dhamodharandeepthi/capstone-fe-gmail_clone">Access Code</a></button></div>
                                         </DetailFooter>
                                     </CardDetails>
                                 </Card>
