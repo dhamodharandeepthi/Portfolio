@@ -119,11 +119,13 @@ letter-spacing:0.5px;
 export default function Home() {
     const [index, setIndex] = React.useState(0);
     const TEXTS = [
+        "HTML",
+        "CSS",
+        "Javascript",
         "React",
         "NodeJs",
         "MongoDB",
         "Express",
-        "AWS"
     ];
 
     React.useEffect(() => {
@@ -147,7 +149,7 @@ export default function Home() {
                             <TextTransition springConfig={presets.wobbly}>{TEXTS[index % TEXTS.length]}</TextTransition>
                         </TContainer>
                         <SContainer>
-                            <button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} href={Resume} download><HiDocumentDownload style={{ fontSize: "1.5rem" }} />Resume</a></button>
+                            <button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} href={Resume} target='_blank'><HiDocumentDownload style={{ fontSize: "1.5rem" }} />Resume</a></button>
 
                             <button className="btn btn-secondary mx-2"> <AiFillAppstore style={{ fontSize: "1.5rem" }} />
                                 <NavLinks to='projects' spy={true} smooth={true} duration={500} style={{ color: "inherit", textDecoration: "none" }}
