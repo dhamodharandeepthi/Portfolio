@@ -7,6 +7,10 @@ import WeatherApp from "../assets/weather.png"
 import CalenderApp from "../assets/calender.png"
 import CurrencyApp from "../assets/currency.png"
 import GmailCloneApp from "../assets/gmailclone.png"
+import TodoApp from "../assets/todo.jpg"
+import CrudApp from "../assets/crud.png"
+import FileUploadApp from "../assets/fileupload.png"
+import GalleryApp from "../assets/gallery.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -128,11 +132,100 @@ export default function Projects() {
             <Container>
                 <InnerContainer>
                     <CardContainer>
+                        <OuterCard>
+                            <InnerCard>
+                                <Card data-aos="zoom-out">
+                                    <CardImg src={GmailCloneApp} />
+                                    <CardDetails>
+                                        <DetailHeader>MERN Project </DetailHeader>
+                                        <DetailHeader>Gmail Clone </DetailHeader>
+                                        <DetailBody>Stay organized, connected, and productive with intuitive features</DetailBody>
+                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
+                                        <DetailFooter>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://gmail-clone-proapp.netlify.app/emails/inbox">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="	https://github.com/dhamodharandeepthi/capstone-fe-gmail_clone">Access Code</a></button></div>
+                                        </DetailFooter>
+                                    </CardDetails>
+                                </Card>
+
+                            </InnerCard>
+                        </OuterCard>
+
+                        <OuterCard>
+                            <InnerCard>
+                                <Card data-aos="zoom-out">
+                                    <CardImg src={CrudApp} />
+                                    <CardDetails>
+                                        <DetailHeader>MERN Project </DetailHeader>
+                                        <DetailHeader>CRUD App </DetailHeader>
+                                        <DetailBody>Develop a CRUD application to efficiently manage and manipulate data.</DetailBody>
+                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
+                                        <DetailFooter>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://crud-app-mernstack.netlify.app/">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/Crud_App_Client_MERN">Access Code</a></button></div>
+                                        </DetailFooter>
+                                    </CardDetails>
+                                </Card>
+                            </InnerCard>
+                        </OuterCard>
+                        <OuterCard>
+                            <InnerCard>
+                                <Card data-aos="zoom-out">
+                                    <CardImg src={FileUploadApp} />
+                                    <CardDetails>
+                                        <DetailHeader>MERN Project </DetailHeader>
+                                        <DetailHeader>File upload App </DetailHeader>
+                                        <DetailBody>Develop a file upload app for seamless file management</DetailBody>
+                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
+                                        <DetailFooter>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://file-upload-app-mern.netlify.app/">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/File_Upload_Client_MERN">Access Code</a></button></div>
+                                        </DetailFooter>
+                                    </CardDetails>
+                                </Card>
+                            </InnerCard>
+                        </OuterCard>
+                        <OuterCard>
+                            <InnerCard>
+                                <Card data-aos="zoom-out">
+                                    <CardImg src={GalleryApp} />
+                                    <CardDetails>
+                                        <DetailHeader>MERN Project </DetailHeader>
+                                        <DetailHeader>Gallery App </DetailHeader>
+                                        <DetailBody>Create a gallery app for organizing and showcasing images with ease.</DetailBody>
+                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
+                                        <DetailFooter>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://gallery-app-mern.netlify.app/">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/Gallery_App_Frontend_MERN">Access Code</a></button></div>
+                                        </DetailFooter>
+                                    </CardDetails>
+                                </Card>
+                            </InnerCard>
+                        </OuterCard>
+                        <OuterCard>
+                            <InnerCard>
+                                <Card data-aos="zoom-out">
+                                    <CardImg src={TodoApp} />
+                                    <CardDetails>
+                                        <DetailHeader>MERN Project </DetailHeader>
+                                        <DetailHeader>Todo App </DetailHeader>
+                                        <DetailBody>Streamline task management for enhanced productivity.</DetailBody>
+                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
+                                        <DetailFooter>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://todo-myapp-mern-stack.netlify.app/">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/Todo_Frontend_MERN?tab=readme-ov-file">Access Code</a></button></div>
+                                        </DetailFooter>
+                                    </CardDetails>
+                                </Card>
+
+                            </InnerCard>
+                        </OuterCard>
                         <OuterCard >
                             <InnerCard>
                                 <Card data-aos="zoom-out" >
                                     <CardImg src={WeatherApp} />
                                     <CardDetails>
+                                        <DetailHeader>React Project</DetailHeader>
                                         <DetailHeader>Weather App</DetailHeader>
                                         <DetailBody> Weather app with real-time updates and intuitive design.</DetailBody>
                                         <DetailSub>HTML | CSS | ReactJS </DetailSub>
@@ -151,6 +244,7 @@ export default function Projects() {
                                 <Card data-aos="zoom-out">
                                     <CardImg src={CalenderApp} />
                                     <CardDetails>
+                                        <DetailHeader>React Project</DetailHeader>
                                         <DetailHeader>Calender App</DetailHeader>
                                         <DetailBody> Calender app with real-time updates and intuitive design.</DetailBody>
                                         <DetailSub> HTML | CSS | ReactJS </DetailSub>
@@ -169,6 +263,7 @@ export default function Projects() {
                                 <Card data-aos="zoom-out">
                                     <CardImg src={CurrencyApp} />
                                     <CardDetails>
+                                        <DetailHeader>React Project</DetailHeader>
                                         <DetailHeader>Currency Converter </DetailHeader>
                                         <DetailBody>Reliable currency converter app!. Instant conversions, anytime, anywhere!</DetailBody>
                                         <DetailSub>HTML | CSS | ReactJS </DetailSub>
@@ -181,31 +276,6 @@ export default function Projects() {
 
                             </InnerCard>
                         </OuterCard>
-                        <OuterCard>
-                            <InnerCard>
-                                <Card data-aos="zoom-out">
-                                    <CardImg src={GmailCloneApp} />
-                                    <CardDetails>
-                                        <DetailHeader>Gmail Clone </DetailHeader>
-                                        <DetailBody>The ultimate Gmail clone. Stay organized, connected, and productive with intuitive features tailored to your needs</DetailBody>
-                                        <DetailSub>ReactJs | NodeJs | ExpressJs | MongoDB</DetailSub>
-                                        <DetailFooter>
-                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://gmail-clone-proapp.netlify.app/emails/inbox">Live Showcase</a></button></div>
-                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="	https://github.com/dhamodharandeepthi/capstone-fe-gmail_clone">Access Code</a></button></div>
-                                        </DetailFooter>
-                                    </CardDetails>
-                                </Card>
-
-                            </InnerCard>
-                        </OuterCard>
-
-
-
-
-
-
-
-
 
                     </CardContainer>
                 </InnerContainer>
