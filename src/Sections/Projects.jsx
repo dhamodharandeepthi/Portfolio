@@ -11,6 +11,7 @@ import TodoApp from "../assets/todo.jpg"
 import CrudApp from "../assets/crud.png"
 import FileUploadApp from "../assets/fileupload.png"
 import GalleryApp from "../assets/gallery.png"
+import RealEstateApp from "../assets/reaEstate.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -132,6 +133,24 @@ export default function Projects() {
             <Container>
                 <InnerContainer>
                     <CardContainer>
+                        <OuterCard>
+                            <InnerCard>
+                                <Card data-aos="zoom-out">
+                                    <CardImg src={RealEstateApp} />
+                                    <CardDetails>
+                                        <DetailHeader>MERN Project </DetailHeader>
+                                        <DetailHeader>Real Estate App </DetailHeader>
+                                        <DetailBody>Streamline property listing management and search for real estate agents.</DetailBody>
+                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
+                                        <DetailFooter>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://real-estate-management-mern-app.netlify.app/">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/Real_Estate_Management_client_MERN">Access Code</a></button></div>
+                                        </DetailFooter>
+                                    </CardDetails>
+                                </Card>
+
+                            </InnerCard>
+                        </OuterCard>
                         <OuterCard>
                             <InnerCard>
                                 <Card data-aos="zoom-out">
