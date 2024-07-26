@@ -169,7 +169,24 @@ export default function Projects() {
 
                             </InnerCard>
                         </OuterCard>
+                        <OuterCard>
+                            <InnerCard>
+                                <Card data-aos="zoom-out">
+                                    <CardImg src={TodoApp} />
+                                    <CardDetails>
+                                        <DetailHeader>MERN Project </DetailHeader>
+                                        <DetailHeader>Todo App </DetailHeader>
+                                        <DetailBody>Streamline task management for enhanced productivity.</DetailBody>
+                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
+                                        <DetailFooter>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://mytodo-app-using-mern.netlify.app/">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/TODO_App_client_MERN">Access Code</a></button></div>
+                                        </DetailFooter>
+                                    </CardDetails>
+                                </Card>
 
+                            </InnerCard>
+                        </OuterCard>
                         <OuterCard>
                             <InnerCard>
                                 <Card data-aos="zoom-out">
@@ -221,24 +238,7 @@ export default function Projects() {
                                 </Card>
                             </InnerCard>
                         </OuterCard>
-                        <OuterCard>
-                            <InnerCard>
-                                <Card data-aos="zoom-out">
-                                    <CardImg src={TodoApp} />
-                                    <CardDetails>
-                                        <DetailHeader>MERN Project </DetailHeader>
-                                        <DetailHeader>Todo App </DetailHeader>
-                                        <DetailBody>Streamline task management for enhanced productivity.</DetailBody>
-                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
-                                        <DetailFooter>
-                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://todo-myapp-mern-stack.netlify.app/">Live Showcase</a></button></div>
-                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/Todo_Frontend_MERN?tab=readme-ov-file">Access Code</a></button></div>
-                                        </DetailFooter>
-                                    </CardDetails>
-                                </Card>
-
-                            </InnerCard>
-                        </OuterCard>
+                       
                         <OuterCard >
                             <InnerCard>
                                 <Card data-aos="zoom-out" >
