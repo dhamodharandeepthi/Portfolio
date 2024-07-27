@@ -193,29 +193,12 @@ export default function Projects() {
                                     <CardImg src={CrudApp} />
                                     <CardDetails>
                                         <DetailHeader>MERN Project </DetailHeader>
-                                        <DetailHeader>CRUD App </DetailHeader>
-                                        <DetailBody>Develop a CRUD application to efficiently manage and manipulate data.</DetailBody>
+                                        <DetailHeader>User Profile App </DetailHeader>
+                                        <DetailBody>The app simplifies user profile management.</DetailBody>
                                         <DetailSub>React | Node | Express | MongoDB</DetailSub>
                                         <DetailFooter>
-                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://crud-app-mernstack.netlify.app/">Live Showcase</a></button></div>
-                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/Crud_App_Client_MERN">Access Code</a></button></div>
-                                        </DetailFooter>
-                                    </CardDetails>
-                                </Card>
-                            </InnerCard>
-                        </OuterCard>
-                        <OuterCard>
-                            <InnerCard>
-                                <Card data-aos="zoom-out">
-                                    <CardImg src={FileUploadApp} />
-                                    <CardDetails>
-                                        <DetailHeader>MERN Project </DetailHeader>
-                                        <DetailHeader>File upload App </DetailHeader>
-                                        <DetailBody>Develop a file upload app for seamless file management</DetailBody>
-                                        <DetailSub>React | Node | Express | MongoDB</DetailSub>
-                                        <DetailFooter>
-                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://file-upload-app-mern.netlify.app/">Live Showcase</a></button></div>
-                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/File_Upload_Client_MERN">Access Code</a></button></div>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://user-management-app-mern-stack.netlify.app/">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/User_Management_App_client_MERN">Access Code</a></button></div>
                                         </DetailFooter>
                                     </CardDetails>
                                 </Card>
@@ -231,8 +214,8 @@ export default function Projects() {
                                         <DetailBody>Create a gallery app for organizing and showcasing images with ease.</DetailBody>
                                         <DetailSub>React | Node | Express | MongoDB</DetailSub>
                                         <DetailFooter>
-                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://gallery-app-mern.netlify.app/">Live Showcase</a></button></div>
-                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/Gallery_App_Frontend_MERN">Access Code</a></button></div>
+                                            <div><button className="btn btn-primary"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://mygallery-app-mern.netlify.app/">Live Showcase</a></button></div>
+                                            <div><button className="btn btn-success"><a style={{ color: "inherit", textDecoration: "none" }} target="_blank" href="https://github.com/dhamodharandeepthi/Gallery_App_client_MERN">Access Code</a></button></div>
                                         </DetailFooter>
                                     </CardDetails>
                                 </Card>
